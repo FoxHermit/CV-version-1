@@ -1,0 +1,184 @@
+/* Paramètres de textes généraux */
+
+body{
+  background-color: black;
+}
+a, h1, h2, p{
+  color: white;
+}
+h1{
+  font-family: Reem Kufi;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 23%;
+  letter-spacing: 10px;
+  font-weight: lighter;
+}
+h2{
+  font-family: Road Rage;
+  text-align: center;
+  font-size: 85px;
+  background-color: black;
+  padding-bottom: 1%;
+}
+a, p{
+  font-family: Reem Kufi;
+  text-decoration: none;
+}
+
+/* BARRE DE NAVIGATION */
+
+#navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: -70px;
+}
+#navbar li{
+  list-style-type: none;
+  font-family: Reem Kufi;
+  text-decoration: none;
+}
+.Foxhermitlogo{
+  width: 50%;
+}
+.black{
+  background-color: black;
+}
+.navbarbutton{
+  font-size: 40px;
+  padding-top: 10px;
+  padding-bottom: -250px;
+}
+.navbarbutton :hover{
+  color: #663399;
+}
+
+/* Partie Titre */
+
+#TITRE{
+  background-image: url("../img/STREET.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 5%;
+}
+#scrolldown{
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  background-color: transparent;
+  text-align: center;
+  border: solid white 1px;
+  font-size: 15px;
+  padding: 5px 10px 3px 10px; /* Rappel : Haut-droite-bas-gauche, ça va dans le sens des aiguilles d'une montre */
+}
+#scrolldown a:hover{
+  color: #663399;
+}
+#scrolldown:hover{
+  border: solid #663399 1px;
+}
+
+/* Partie Personnage */
+
+#PERSONNAGE{
+  background-image: url("../img/IMG_20200407_150056.jpg");
+  padding-bottom: 2%;
+}
+#photo{
+  width: 15%;
+  border: solid white 2px;
+  margin-left: 3%
+}
+.presentation{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#bio{
+  font-size: 25px;
+  margin-left: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
+  line-height: 80px;
+  background : rgba(00, 00, 00, 0.9);
+}
+.contact{
+  margin-left: 5%;
+  font-size: 20px;
+  background : rgba(00, 00, 00, 0.9);
+  margin-right: 82%;
+  padding-left: 1px;
+  margin-top: 2%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding right: 1px;
+  text-align: center;
+}
+#coordinates a:hover{
+  color: #663399;
+}
+
+/* Expérience et Compétences */
+
+/* Partie LIENS*/
+
+#LIENS{
+  background-image: url("../img/0043.jpg");
+  background-repeat: no-repeat;
+}
+.YouTube{
+  display: block;
+}
+.YouTube:hover{
+  color: #663399;
+}
+.Twitch{
+  display: block;
+}
+.Twitch:hover{
+  color: #663399;
+}
+#LIENS ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+}
+#LIENS li{
+  list-style-type: none;
+  margin-left: 5%;
+  margin-right: 5%
+}
+#LIENS a{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 1%
+}
+.FOXHERMIT{
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+}
+#scrollup{
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: transparent;
+  text-align: center;
+  border: solid white 1px;
+  font-size: 15px;
+  padding: 5px 10px 3px 10px;
+}
+#scrollup a:hover{
+  color: #663399;
+}
+#scrollup:hover{
+  border: solid #663399 1px;
+}
