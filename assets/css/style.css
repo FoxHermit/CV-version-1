@@ -83,7 +83,8 @@ a, p{
 /* Partie Personnage */
 
 #PERSONNAGE{
-  background-image: url("../img/IMG_20200407_150056.jpg");
+  background-image: url("../img/clavier.jpg");
+  background-size: cover;
   padding-bottom: 2%;
 }
 #photo{
